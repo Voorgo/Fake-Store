@@ -13,11 +13,11 @@ const RouteSwitch = () => {
       <Provider>
         <NavBar />
         <Routes>
-          <Route path="/shopping-cart" element={<Home />} />
-          <Route path="/" element={<Navigate to="/shopping-cart" replace />} />
-          <Route path="/shopping-cart/contact" element={<Contact />} />
-          <Route path="/shopping-cart/products" element={<Products />} />
-          <Route path="/shopping-cart/products/:id" element={<ProductPage />} />
+          <Route path="/Fake-Store" element={<Home />} />
+          <Route path="/" element={<Navigate to="/Fake-Store" replace />} />
+          <Route path="/Fake-Store/contact" element={<Contact />} />
+          <Route path="/Fake-Store/products" element={<Products />} />
+          <Route path="/Fake-Store/products/:id" element={<ProductPage />} />
         </Routes>
         <Cart />
       </Provider>

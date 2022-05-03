@@ -12,17 +12,17 @@ const NavBar = () => {
     <header>
       <Nav>
         <StoreTitle>
-          <NavLink to="/shopping-cart">FakeStore</NavLink>
+          <NavLink to="/Fake-Store">FakeStore</NavLink>
         </StoreTitle>
         <LinkWrapper>
           <li>
-            <NavLink to="/shopping-cart">Home</NavLink>
+            <NavLink to="/Fake-Store">Home</NavLink>
           </li>
           <li>
-            <NavLink to="/shopping-cart/products">Products</NavLink>
+            <NavLink to="/Fake-Store/products">Products</NavLink>
           </li>
           <li>
-            <NavLink to="/shopping-cart/contact">Contact</NavLink>
+            <NavLink to="/Fake-Store/contact">Contact</NavLink>
           </li>
           <li onClick={() => dispatch({ type: "open" })}>
             <FontAwesomeIcon icon={faCartShopping} size="xl" color="white" />

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const ProductCard = ({ item }) => {
   return (
     <Card
-      to={`/shopping-cart/products/${item.id}`}
+      to={`/Fake-Store/products/${item.id}`}
       onClick={() => {
         localStorage.setItem("item", JSON.stringify({ ...item, quantity: 1 }));
       }}
