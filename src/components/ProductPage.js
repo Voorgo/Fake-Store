@@ -39,6 +39,7 @@ const ProductWrapper = styled.div`
 
   @media (max-width: 600px) {
     flex-direction: column;
+    margin: 5rem 0;
   }
 `;
 

@@ -12,7 +12,7 @@ const Home = () => {
           <h1>
             Spring <span>Collection</span>
           </h1>
-          <ShopBtn to="/shopping-cart/products">
+          <ShopBtn to="/Fake-Store/products">
             <span>SHOP NOW</span>
             <FontAwesomeIcon icon={faAngleRight} size="sm" color="#23c920" />
           </ShopBtn>
