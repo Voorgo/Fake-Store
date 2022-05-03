@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Fake-Store/static/css/main.81f9307a.css",
+    "main.js": "/Fake-Store/static/js/main.3d5113c9.js",
+    "static/media/joey-nicotra-HiqgOQaksAQ-unsplash_ccexpress.png": "/Fake-Store/static/media/joey-nicotra-HiqgOQaksAQ-unsplash_ccexpress.a39c8e695b5d8ad91c2c.png",
+    "index.html": "/Fake-Store/index.html",
+    "main.81f9307a.css.map": "/Fake-Store/static/css/main.81f9307a.css.map",
+    "main.3d5113c9.js.map": "/Fake-Store/static/js/main.3d5113c9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.81f9307a.css",
+    "static/js/main.3d5113c9.js"
+  ]
+}
