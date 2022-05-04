@@ -23,7 +23,7 @@ function Cart() {
         <List>
           {items
             ? items.map((item) => <CartItem item={item} key={item.id} />)
-            : null}
+            : ""}
         </List>
         <Total />
         <CheckoutButton>Checkout</CheckoutButton>
