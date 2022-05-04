@@ -14,7 +14,7 @@ function Cart() {
     setRender(state);
   }, [state]);
 
-  const items = JSON.parse(sessionStorage.getItem("items"));
+  const items = JSON.parse(sessionStorage.getItem("items")) || [];
   return (
     <>
       <BackgroundBlur open={state.isOpen} onClick={closeCart}></BackgroundBlur>
@@ -23,7 +23,7 @@ function Cart() {
         <List>
           {items
             ? items.map((item) => <CartItem item={item} key={item.id} />)
-            : ""}
+            : null}
         </List>
         <Total />
         <CheckoutButton>Checkout</CheckoutButton>
