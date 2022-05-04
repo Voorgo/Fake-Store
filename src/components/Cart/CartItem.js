@@ -8,7 +8,6 @@ const CartItem = ({ item }) => {
       <img src={image} alt="product" />
       <TitlePriceBtns>
         <div>
-          {" "}
           <p>{title.slice(0, 20) + "..."}</p>
           <p>${price}</p>
         </div>

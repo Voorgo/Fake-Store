@@ -21,7 +21,7 @@ const Buttons = ({ qty, id }) => {
     });
   };
 
-  const list = JSON.parse(sessionStorage.getItem("items"));
+  const list = JSON.parse(sessionStorage.getItem("items")) || [];
   if (list) {
     const newList = list.map((item) =>
       item.id === id ? { ...item, quantity: itemQty } : item
@@ -30,8 +30,9 @@ const Buttons = ({ qty, id }) => {
     if (itemQty === 0) {
       const filteredList = newList.filter((item) => item.id !== id);
       sessionStorage.setItem("items", JSON.stringify(filteredList));
-      if (JSON.parse(sessionStorage.getItem("items")).length === 0)
-        return sessionStorage.clear();
+      if (JSON.parse(sessionStorage.getItem("items")).length === 0) {
+        sessionStorage.clear();
+      }
     }
   }
 
